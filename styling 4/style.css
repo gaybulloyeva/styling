@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    width: 350px;
+    height: 470px;
+    margin: 80px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color:  hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 5px 1px hsl(0, 0%, 7%);
+}
+
+.main{
+    width: 310px;
+    height: 190px;
+    border-radius: 15px;
+    margin: 19px 19px;
+}
+
+button{
+    border: none;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    border-radius: 4px;
+    height: 30px;
+    color: hsl(0, 0%, 7%);
+    width: 80px;
+    margin: 0 19px;
+}
+
+.publish{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    color: hsl(0, 0%, 7%);
+    background: none;
+    margin: 13px 19px;
+}
+
+h2{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    background: none;
+    margin: 0 19px;
+    color: hsl(0, 0%, 7%);
+    cursor: pointer;
+}
+
+h2:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.discription{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    background: none;
+    margin: 10px 19px;
+    padding-right: 20px;
+    color: hsl(0, 0%, 42%);
+}
+
+.avatar{
+    width: 35px;
+    height: 35px;
+    background: none;
+    margin: 10px 19px;
+}
+
+h5{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    font-style: normal;
+    position: relative;
+    left: 65px;
+    bottom: 40px;
+    background: none;
+    
+}
